@@ -11,7 +11,7 @@ import compressor from 'astro-compressor'
 
 // https://astro.build/config
 export default defineConfig({
-  site: URL,
+  site: 'https://radinmn.github.io',
   server: {
     host: true
   },
