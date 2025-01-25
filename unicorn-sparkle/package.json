@@ -9,6 +9,7 @@
     "astrojs",
     "astro-template"
   ],
+  "packageManager": "pnpm@9.15.4",
   "bugs": {
     "url": "https://github.com/UXCorpRangel/portfolios-dev/issues"
   },
@@ -80,6 +81,5 @@
     "prettier": "3.4.2",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "0.6.6"
-  },
-  "packageManager": "pnpm@9.15.4"
+  }
 }
