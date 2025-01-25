@@ -15,9 +15,9 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # Explicitly set the Ubuntu version to avoid unexpected updates
     steps:
-      - name: Checkout your repository using git
+      - name: Checkout your repository
         uses: actions/checkout@v4
         
       - name: Setup PNPM
@@ -25,15 +25,15 @@ jobs:
         with:
           version: 9.15.4
 
-      - name: Install dependencies with PNPM
+      - name: Install dependencies
         run: pnpm install
 
       - name: Build the site
-        run: pnpm build
+        run: pnpm run build
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # Same explicit Ubuntu version here
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
