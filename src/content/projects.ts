@@ -6,7 +6,7 @@ export const PROJECTS = [
     title: "Tweed Grow To Win 1 & 2",
     description:
       "Promotional games developed in collaboration with Tweed and Bottlecap Media, Toronto. Designed gameplay inspired by 'Among Us,' where users navigate a plant growing facility, complete tasks, and ensure the plants thrive. Engineered a robust score tracking system that securely stores users' achievements on AWS servers and facilitates weekly performance accolades.",
-    image: "/tweed-game.jpg", // Replace with the path to your project's image
+    image: "/tweed-game.jpeg", // Replace with the path to your project's image
     tags: ["Game Development", "AWS", "Collaboration", "2022-2023"],
     links: [
       {
