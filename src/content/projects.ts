@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa"
+import { FaGamepad, FaGithub } from "react-icons/fa"
 import { PiLinkSimpleBold } from "react-icons/pi"
 
 export const PROJECTS = [
@@ -11,9 +11,9 @@ export const PROJECTS = [
     tags: ["Game Development", "Collaboration"],
     links: [
       {
-        name: "Details",
+        name: "Play In Browser",
         url: "https://roozbehmd.github.io/Tweed2/",
-        icon: PiLinkSimpleBold,
+        icon: FaGamepad,
       },
     ],
   },
