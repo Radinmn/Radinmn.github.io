@@ -3,21 +3,22 @@ import { PiLinkSimpleBold } from "react-icons/pi"
 
 export const PROJECTS = [
   {
-    title: "Tweed Grow To Win 1 & 2",
+    title: "Tweed Grow To Win 1 & 2 - Promotional Games",
     description:
-      "Promotional games developed in collaboration with Tweed and Bottlecap Media, Toronto. Designed gameplay inspired by 'Among Us,' where users navigate a plant growing facility, complete tasks, and ensure the plants thrive. Engineered a robust score tracking system that securely stores users' achievements on AWS servers and facilitates weekly performance accolades.",
-    image: "/tweed-game.jpeg", // Replace with the path to your project's image
-    tags: ["Game Development", "AWS", "Collaboration", "2022-2023"],
+      "Web collaboration with Tweed and Bottlecap Media. Designed gameplay akin to 'Among Us,' where users navigate a plant growing facility, complete tasks, and ensure the plants thrive. Engineered a robust score tracking system, securely storing users’ achievements on AWS servers, and facilitating weekly performance accolades.",
+    image: "/neovim.jpg",
+    tags: [
+      "Game Development",
+      "AWS",
+      "Collaboration",
+      "2022 - 2023",
+      "Published",
+    ],
     links: [
       {
-        name: "Project Details",
-        url: "https://example.com/project-details", // Replace with your project's URL
+        name: "Details",
+        url: "https://example.com/project-details", // Replace with your project link
         icon: PiLinkSimpleBold,
-      },
-      {
-        name: "Github Repository",
-        url: "https://github.com/yourusername/tweed-grow-to-win", // Replace with your project's GitHub URL
-        icon: FaGithub,
       },
     ],
   },
