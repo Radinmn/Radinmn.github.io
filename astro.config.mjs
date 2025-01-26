@@ -8,6 +8,8 @@ import tailwind from "@astrojs/tailwind";
 
 // Export the Astro configuration
 export default defineConfig({
+  site: "https://radinmn.github.io", // Your GitHub Pages URL
+  base: "/", // Use "/" if deploying to the root of the repository
   integrations: [
     react(),
     tailwind({ 

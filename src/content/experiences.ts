@@ -1,9 +1,16 @@
 export const EXPERIENCES = [
   {
-    date: "March 2023 - April 2024",
-    jobTitle: "Technology Assistant",
-    company: "Empresa de Conducciones las Arrieritas SA",
+    date: "2022 - 2023",
+    jobTitle: "Game Developer",
+    company: "Tweed and Bottlecap Media - Toronto",
     description:
-      "During my time at the company, I have improved the agility of monitoring, data analysis and decision-making processes by implementing modern techniques and developing solutions using technologies such as Python, Django, Typescript, React and Nextjs.",
+      "Designed gameplay akin to 'Among Us,' where users navigate a plant growing facility, complete tasks, and ensure the plants thrive. Engineered a robust score tracking system, securely storing users’ achievements on AWS servers, and facilitating weekly performance accolades.",
+  },
+  {
+    date: "August 2022 - Present",
+    jobTitle: "Co-Host and Cleaner",
+    company: "Airbnb",
+    description:
+      "Managing a unit and ensuring customer satisfaction with a 4.94/5 rating. Communicating with guests and making special arrangements based on their needs. Weekly cleaning guaranteeing safety.",
   },
 ]
