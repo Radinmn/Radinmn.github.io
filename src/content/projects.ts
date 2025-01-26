@@ -23,20 +23,21 @@ export const PROJECTS = [
     ],
   },
   {
-    title: "Markdown Web Editor",
-    description: "A Simple and Straightforward Markdown Web Editor",
+    title: "Trajic Traffic",
+    description:
+      "A dynamic p5.js game where players navigate a car through a bustling city filled with traffic and construction zones. Players dodge obstacles, avoid collisions, and aim for high scores while adapting to increasing difficulty levels. Featuring smooth animations, collision detection, and speed adjustments for engaging gameplay.",
     image: "/markwriter.jpg",
-    tags: ["React", "Next.js", "Codemirror", "ChakraUI"],
+    tags: ["p5.js", "Game Development", "JavaScript", "Interactive"],
     links: [
       {
-        name: "Preview",
-        url: "https://markwriter.vercel.app/",
-        icon: PiLinkSimpleBold,
+        name: "Code",
+        url: "https://editor.p5js.org/Radinm/sketches/WfRTLCExX", // Replace with your GitHub repo link
+        icon: FaGithub,
       },
       {
-        name: "Github",
-        url: "https://github.com/slydragonn/markwriter",
-        icon: FaGithub,
+        name: "Live Demo",
+        url: "https://editor.p5js.org/Radinm/sketches/WfRTLCExX", // Replace with your live project link
+        icon: PiLinkSimpleBold,
       },
     ],
   },
