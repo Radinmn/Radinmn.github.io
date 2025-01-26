@@ -5,22 +5,22 @@ import { ModeToggle } from "./ModeToggle"
 const socials = [
   {
     name: "Github",
-    url: "https://github.com/slydragonn",
+    url: "https://github.com/Radinmn",
     icon: FaGithub,
   },
-  {
-    name: "DEV",
-    url: "https://dev.to/slydragonn",
-    icon: FaDev,
-  },
-  {
-    name: "Twitter",
-    url: "https://x.com/alejo_log",
-    icon: FaXTwitter,
-  },
+  // {
+  //   name: "DEV",
+  //   url: "https://dev.to/slydragonn",
+  //   icon: FaDev,
+  // },
+  // {
+  //   name: "Twitter",
+  //   url: "https://x.com/alejo_log",
+  //   icon: FaXTwitter,
+  // },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/alejolg/",
+    url: "https://www.linkedin.com/in/radin-mydn/",
     icon: FaLinkedin,
   },
 ]

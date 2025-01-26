@@ -3,27 +3,20 @@ import { PiLinkSimpleBold } from "react-icons/pi"
 
 export const PROJECTS = [
   {
-    title: "Neovim Setups",
+    title: "Tweed Grow To Win 1 & 2",
     description:
-      "Neovim is a hyper-extensible text editor based on Vim, and it is a fast editor compared to its counterparts like vscode, but it has a steep learning curve especially in terms of how to configure it, which I have made a bit easier for new developers who want to use neovim by creating and sharing my own configuration.",
-    image: "/neovim.jpg",
-    tags: [
-      "+130 Stars",
-      "30 Forks",
-      "Lua",
-      "Vimscript",
-      "lazy.nvim",
-      "packer.nvim",
-    ],
+      "Promotional games developed in collaboration with Tweed and Bottlecap Media, Toronto. Designed gameplay inspired by 'Among Us,' where users navigate a plant growing facility, complete tasks, and ensure the plants thrive. Engineered a robust score tracking system that securely stores users' achievements on AWS servers and facilitates weekly performance accolades.",
+    image: "/tweed-game.jpg", // Replace with the path to your project's image
+    tags: ["Game Development", "AWS", "Collaboration", "2022-2023"],
     links: [
       {
-        name: "Lazy",
-        url: "https://github.com/slydragonn/nvim-lazy",
-        icon: FaGithub,
+        name: "Project Details",
+        url: "https://example.com/project-details", // Replace with your project's URL
+        icon: PiLinkSimpleBold,
       },
       {
-        name: "Packer",
-        url: "https://github.com/slydragonn/dotfiles",
+        name: "Github Repository",
+        url: "https://github.com/yourusername/tweed-grow-to-win", // Replace with your project's GitHub URL
         icon: FaGithub,
       },
     ],
