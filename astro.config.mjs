@@ -1,11 +1,17 @@
 // @ts-check
-import { defineConfig } from "astro/config"
+// Astro Configuration File
+import { defineConfig } from "astro/config";
 
-import react from "@astrojs/react"
+// Import integrations
+import react from "@astrojs/react";
+import tailwind from "@astrojs/tailwind";
 
-import tailwind from "@astrojs/tailwind"
-
-// https://astro.build/config
+// Export the Astro configuration
 export default defineConfig({
-  integrations: [react(), tailwind({ applyBaseStyles: false })],
-})
+  integrations: [
+    react(),
+    tailwind({ 
+      applyBaseStyles: false 
+    }),
+  ],
+});
