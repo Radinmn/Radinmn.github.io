@@ -24,7 +24,7 @@ export const PROJECTS = [
       "A creative comparison of an ordinary day in the lives of a human and an alien. This project was developed using Java and HTML, blending animation and storytelling to explore cultural and environmental contrasts.",
     video: "/video.mp4", // Video file path
     imageWidth: "700px",
-    tags: ["Java", "HTML", "Storytelling"],
+    tags: ["Java", "WebGL", "Storytelling"],
     links: [
       {
         name: "Code",
@@ -40,7 +40,7 @@ export const PROJECTS = [
       "Immerse yourself in a vibrant symphony of visuals where sound shapes the scene. As the bass drops, colors pulse and shift, while soaring pitches sculpt intricate patterns and dynamic effects. Each clip dances in harmony with the music, creating a mesmerizing audio-visual experience that fuses rhythm and light into pure sensory magic.",
     video: "/visualmusic.mp4", // Video file path
     imageWidth: "700px",
-    tags: ["Audio-Visual", "Max"],
+    tags: ["Max", "Audio-Visual"],
     links: [
       {
         name: "Code",
@@ -66,21 +66,21 @@ export const PROJECTS = [
     ],
   },
 
-  {
-    title: "Text Animation with Particles",
-    description:
-      "Experience a dynamic text animation where the phrase 'I love coding' comes to life with particles. Each letter is constructed from moving particles that respond to user input. Change fonts by clicking, reset the particles with the spacebar, and watch as vibrant colors—blue, green, and red—bring the text to life. This interactive piece is created using p5.js and explores the intersection of typography and motion.",
-    image: "/text-animation.png", // Placeholder for a representative image of the animation
-    imageWidth: "700px",
-    tags: ["p5.js", "Typography"],
-    links: [
-      {
-        name: "Code",
-        url: "https://editor.p5js.org/Radinm/sketches/YourSketchIDHere", // Replace with the actual link
-        icon: PiLinkSimpleBold,
-      },
-    ],
-  },  
+  // {
+  //   title: "Text Animation with Particles",
+  //   description:
+  //     "Experience a dynamic text animation where the phrase 'I love coding' comes to life with particles. Each letter is constructed from moving particles that respond to user input. Change fonts by clicking, reset the particles with the spacebar, and watch as vibrant colors—blue, green, and red—bring the text to life. This interactive piece is created using p5.js and explores the intersection of typography and motion.",
+  //   iframe: `<iframe src="https://editor.p5js.org/Radinm/full/Sj5D-vuOO" width="700" height="500" style="border: none;"></iframe>`, // Embedded iframe link
+  //   imageWidth: "700px",
+  //   tags: ["p5.js", "Typography"],
+  //   links: [
+  //     {
+  //       name: "Code",
+  //       url: "https://editor.p5js.org/Radinm/sketches/YourSketchIDHere", // Replace with the actual link
+  //       icon: PiLinkSimpleBold,
+  //     },
+  //   ],
+  // },
 
   {
     title: "Trajic Traffic",
