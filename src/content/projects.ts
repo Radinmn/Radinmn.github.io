@@ -56,7 +56,7 @@ export const PROJECTS = [
       "Experience a modern twist on Van Gogh's masterpiece, where every pixel tells a new story. This reimagining of 'Starry Night' transforms the iconic painting using generative art techniques in p5.js, altering the pixel structure to create a mesmerizing interplay of shapes and colors. A tribute to classic art, redefined through code.",
     image: "/starry-night.png", // Image file path
     imageWidth: "700px",
-    tags: ["p5.js", "Generative Art", "Visual Remix", "Creative Coding"],
+    tags: ["p5.js", "Generative Art"],
     links: [
       {
         name: "Code",
@@ -72,7 +72,7 @@ export const PROJECTS = [
       "Experience a dynamic text animation where the phrase 'I love coding' comes to life with particles. Each letter is constructed from moving particles that respond to user input. Change fonts by clicking, reset the particles with the spacebar, and watch as vibrant colors—blue, green, and red—bring the text to life. This interactive piece is created using p5.js and explores the intersection of typography and motion.",
     image: "/text-animation.png", // Placeholder for a representative image of the animation
     imageWidth: "700px",
-    tags: ["p5.js", "Typography", "Interactive Animation", "Creative Coding"],
+    tags: ["p5.js", "Typography"],
     links: [
       {
         name: "Code",
