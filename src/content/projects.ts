@@ -8,7 +8,7 @@ export const PROJECTS = [
       "Web collaboration with Tweed and Bottlecap Media. Designed gameplay akin to 'Among Us,' where users navigate a plant growing facility, complete tasks, and ensure the plants thrive. Engineered a robust score tracking system, securely storing users’ achievements on AWS servers, and facilitating weekly performance accolades.",
     image: "/neovim.jpg",
     imageWidth: "700px",
-    tags: ["Game Development", "Collaboration"],
+    tags: ["Unity game engine", "C#", "Collaboration"],
     links: [
       {
         name: "Play In Browser",
