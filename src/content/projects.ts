@@ -83,9 +83,9 @@ export const PROJECTS = [
   // },
 
   {
-    title: "Trajic Traffic",
+    title: "Tragic Traffic",
     description:
-      "A dynamic p5.js game where players navigate a car through a bustling city filled with traffic and construction zones. Players dodge obstacles, avoid collisions, and aim for high scores while adapting to increasing difficulty levels.",
+      "A dynamic p5.js game where players navigate a car through a busy city filled with traffic and construction zones. Players dodge obstacles, avoid collisions, and aim for high scores while adapting to increasing difficulty levels.",
     image: "/markwriter.jpg",
     imageWidth: "400px",
     tags: ["p5.js", "Interactive"],
